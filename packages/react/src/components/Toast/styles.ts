@@ -2,7 +2,6 @@ import { styled } from '../../styles'
 
 export const ToastContainer = styled('div', {
   width: '$80',
-  height: '$20',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems:'flex-start',
