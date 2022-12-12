@@ -26,5 +26,5 @@ export const Arrow = styled('div', {
   height: 0,
   borderLeft: '12px solid transparent',
   borderRight: '12px solid transparent',
-  borderTop:`'12px solid $gray900'`
+  borderTop: '12px solid $gray900'
 })
