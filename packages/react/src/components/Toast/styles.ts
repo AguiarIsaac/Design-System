@@ -8,7 +8,7 @@ export const ToastContainer = styled('div', {
   padding: '$4',
   background: '$gray800',
   borderRadius: 8,
-  border: '1px solid $gray600',
+  border: '2px solid $gray600',
   color: 'White',
   fontFamily: '$default',
 

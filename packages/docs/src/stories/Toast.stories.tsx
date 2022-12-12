@@ -6,16 +6,8 @@ export default {
   title: 'Form/Toast',
   component: Toast,
   args: {
-    date: '9 de Dezembro',
+    date: '9 de Dezembro, ás 16h',
     status: 'Realizado'
-  },
-  argTypes: {
-    status: {
-      options: ['Realizado', 'Cancelado']
-    },
-    control: {
-      type: 'inline-radio'
-    }
   }
 } as Meta<ToastProps>
 
