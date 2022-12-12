@@ -1,7 +1,23 @@
-export function Toast() {
+import { X } from "phosphor-react"
+import { TextElement, ToastContainer } from "./styles"
+
+export interface ToastProps {
+  date: string,
+  status: string
+}
+
+export function Toast({date, status}: ToastProps) {
+  
   return (
-    <h1>
-      Toast
-    </h1>
+    <ToastContainer>
+      <TextElement>
+        <span>Agendamento {status}</span>
+        <small>{date}</small>
+      </TextElement>
+
+      <button type="button">
+        <X size={20}/>
+      </button>
+    </ToastContainer>
   )
 }
