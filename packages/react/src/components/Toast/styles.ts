@@ -1,8 +1,8 @@
 import { styled } from '../../styles'
 
 export const ToastContainer = styled('div', {
-  maxWidth: '$80',
-  maxHeight: '$20',
+  width: '$80',
+  height: '$20',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems:'flex-start',
@@ -10,7 +10,8 @@ export const ToastContainer = styled('div', {
   background: '$gray800',
   borderRadius: 8,
   border: '1px solid $gray600',
-  color: 'White', 
+  color: 'White',
+  fontFamily: '$default',
 
   button: {
     cursor: 'pointer',

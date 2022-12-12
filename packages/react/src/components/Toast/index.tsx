@@ -16,7 +16,7 @@ export function Toast({date, status}: ToastProps) {
       </TextElement>
 
       <button type="button">
-        <X size={20}/>
+        <X size={18}/>
       </button>
     </ToastContainer>
   )

@@ -25,7 +25,7 @@ export const TooltipContainer = styled('div', {
 export const Arrow = styled('div', {
   width: 0,
   height: 0,
-  borderLeft: '$3 solid transparent',
-  borderRight: '$3 solid transparent',
-  borderTop: '$3 solid $gray900'
+  borderLeft: '12px solid transparent',
+  borderRight: '12px solid transparent',
+  borderTop: '12px solid $gray900'
 })
